@@ -1,0 +1,41 @@
+Para Instalação: executar o arquivo setup que está na pasta Output
+
+Password exigida na instalação :  123
+
+Quando o instalador começar a instalação do firebird, na parte "seleciona tarefas adicionais" marcar a opçao "copiar a biblioteca do cliente Firebird p/ a pasta de <sistema>"
+
+
+As DLL's utilizadas devem ser inseridas na pasta system do 
+sistema operacional.
+
+
+---------
+
+Para Instalação: executar o arquivo setup que está na pasta Output
+
+Password exigida na instalação :  123
+
+Quando o instalador começar a instalação do firebird, na parte "seleciona tarefas adicionais" marcar a opçao "copiar a biblioteca do cliente Firebird p/ a pasta de <sistema>"
+
+
+
+Se der algum problema na execução do programa: e não for a falta do fbclient.dll, seguir abaixo:
+
+iniciar    executar   notepad "c:windows\system32\drivers\etc\hosts"
+
+
+e alterá-lo como abaixo
+
+
+a ultima linha do arquivo deverá ser 
+
+127.0.0     localhost        (essa linha já existe e é mais ou menos assim)
+daí vc vair criar uma linha abaixo desta, vai reperir o numero do ip e escrever servidor abaixo do localhost, assim:
+127.0.0     servidor
+
+
+
+daí é só gravar o arquivo.   
+
+
+
